@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A1Uniforms</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- addtocartcss -->
+    <link rel="stylesheet" href="css/addtocart.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+  <a href="#" class="logo">A1Uniform </a>
+
+  <nav class="navbar">
+      <a href="index.html">home</a>
+      <a href="#products">products</a>
+      <a href="#featured">featured</a>
+      <a href="#review">review</a>
+      <a href="contactus.html">contact</a>
+      <a href="blog.html">blogs</a>
+  </nav>
+
+  <div class="icons">
+      <div id="menu-btn" class="fas fa-bars"></div>
+      <div id="search-btn" class="fas fa-search"></div>
+      <a href="addtocart.html" class="fas fa-shopping-cart"></a>
+      <a href="login.html" ><button class="btn"  style="color: rgb(2, 2, 2)" >Login</button></a>
+  </div>
+
+  <form action="" class="search-form">
+      <input type="search" name="" placeholder="search here..." id="search-box">
+      <label for="search-box" class="fas fa-search"></label>
+  </form>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- addtocart -->
+
+<section class="home"> 
+    <main>
+        <div class="basket">
+          <div class="basket-module">
+            <label for="promo-code">Enter a promotional code</label>
+            <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field">
+            <button class="promo-code-cta">Apply</button>
+          </div>
+          <div class="basket-labels">
+            <ul>
+              <li class="item item-heading">Item</li>
+              <li class="price">Price</li>
+              <li class="quantity">Quantity</li>
+              <li class="subtotal">Subtotal</li>
+            </ul>
+          </div>
+          <div class="basket-product">
+            <div class="item">
+              <div class="product-image" style="background:url(image/pic-5.png)">
+               
+              </div>
+              <div class="product-details">
+                <h1><strong><span class="item-quantity">4</span> x Eliza J</strong> Lace Sleeve Cuff Dress</h1>
+                <p><strong>Navy, Size 18</strong></p>
+                <p>Product Code - 232321939</p>
+              </div>
+            </div>
+            <div class="price">26.00</div>
+            <div class="quantity">
+              <input type="number" value="4" min="1" class="quantity-field">
+            </div>
+            <div class="subtotal">104.00</div>
+            <div class="remove">
+              <button>Remove</button>
+            </div>
+          </div>
+          <div class="basket-product">
+            <div class="item">
+              <div class="product-image" style="background:url(image/pic-5.png)" >
+    
+              </div>
+              <div class="product-details">
+                <h1><strong><span class="item-quantity">1</span> x Whistles</strong> Amella Lace Midi Dress</h1>
+                <p><strong>Navy, Size 10</strong></p>
+                <p>Product Code - 232321939</p>
+              </div>
+            </div>
+            <div class="price">26.00</div>
+            <div class="quantity">
+              <input type="number" value="1" min="1" class="quantity-field">
+            </div>
+            <div class="subtotal">26.00</div>
+            <div class="remove">
+              <button>Remove</button>
+            </div>
+          </div>
+        </div>
+        <aside>
+          <div class="summary">
+            <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
+            <div class="summary-subtotal">
+              <div class="subtotal-title">Subtotal</div>
+              <div class="subtotal-value final-value" id="basket-subtotal">130.00</div>
+              <div class="summary-promo hide">
+                <div class="promo-title">Promotion</div>
+                <div class="promo-value final-value" id="basket-promo"></div>
+              </div>
+            </div>
+            <div class="summary-delivery">
+              <select name="delivery-collection" class="summary-delivery-selection">
+                  <option value="0" selected="selected">Select Collection or Delivery</option>
+                 <option value="collection">Collection</option>
+                 <option value="first-class">Royal Mail 1st Class</option>
+                 <option value="second-class">Royal Mail 2nd Class</option>
+                 <option value="signed-for">Royal Mail Special Delivery</option>
+              </select>
+            </div>
+            <div class="summary-total">
+              <div class="total-title">Total</div>
+              <div class="total-value final-value" id="basket-total">130.00</div>
+            </div>
+            <div class="summary-checkout">
+              <button class="checkout-cta"><a href="login.html">Go to Secure Checkout</a> </button>
+            </div>
+          </div>
+        </aside>
+      </main>
+    
+    
+</section>
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>about us</h3>
+            <p>We provide Consumers high end quality uniforms & to typically find themselves paying more for products from one clothing line than for similar products of the same quality from a different clothing line, simply because they recognize one brand over the other.!</p>
+        </div>
+
+        <div class="box">
+            <h3>category</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> men </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> women </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> kids </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> best seller </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> new arrivals </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> products </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> featured </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> contact </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> blogs </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my order </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my account </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> my listing </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> sell now </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> new offers </a>
+        </div>
+
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-pinterest"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+        <a href="#" class="fab fa-instagram"></a>
+    </div>
+
+    <div class="credit"> &copy; copyright @ 2022 by <span>A1Uniform</span> </div>
+    
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
